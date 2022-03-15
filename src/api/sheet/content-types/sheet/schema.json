@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sheets",
+  "info": {
+    "singularName": "sheet",
+    "pluralName": "sheets",
+    "displayName": "Sheet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Preview": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Composer": {
+      "type": "string"
+    },
+    "SnipcartFileGuid": {
+      "type": "string"
+    }
+  }
+}
